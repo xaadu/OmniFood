@@ -203,7 +203,45 @@ h3 {
   margin: 0 auto;
 }
 
+.section-meals--showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.section-meals--showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.section-meals--showcase li figure {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.section-meals--showcase li figure img {
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  opacity: 0.7;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.section-meals--showcase li figure img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  opacity: 1;
+}
+
 .section-features {
   padding: 80px 0;
+}
+
+.section-meals {
+  padding: 0;
 }
 /*# sourceMappingURL=main.min.css.map */
