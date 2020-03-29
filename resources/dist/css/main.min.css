@@ -1,8 +1,8 @@
 /*
 // C O L O R S  --  BLUE / LIGHT BLUE
 $primary-color:        #2196F3;
-$primary-color-dark:   darken($primary-color, 12%);       
-$primary-color-light:  lighten($primary-color, 12%);
+$primary-color-dark:   darken($primary-color, 10%);       
+$primary-color-light:  lighten($primary-color, 10%);
 $primary-color-text:   #FFFFFF;
 $primary-text-color:   #212121;
 $secondary-text-color: #757575;
@@ -51,7 +51,7 @@ body {
 }
 
 .btn--full:hover {
-  background-color: #b66015;
+  background-color: #bf6516;
 }
 
 .btn--ghost {
@@ -61,8 +61,8 @@ body {
 
 .btn--ghost:hover {
   color: #fff;
-  border-color: #b66015;
-  background-color: #b66015;
+  border-color: #bf6516;
+  background-color: #bf6516;
 }
 
 .header {
