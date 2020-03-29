@@ -2,6 +2,47 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 200%;
-    color: $primary-text-color;
+    color: $secondary-text-color;
     text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $primary-text-color;
+    
+}
+h1 {
+    color: $color-white;
+    margin-top: 0;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+
+    &::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 100px;
+        background-color: $primary-color;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+h3 {
+    font-weight: 400;
+    font-size: 110%;
+}
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
 }

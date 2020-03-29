@@ -11,7 +11,7 @@
 
     &--full {
         margin-right: 2%;
-        color: $color-white;
+        color: $primary-color-text;
         background-color: $primary-color;
 
         &:hover {
@@ -23,7 +23,7 @@
         border: 1px solid $primary-color;
 
         &:hover {
-            color: $color-white;
+            color: $primary-color-text;
             border-color: $primary-color-dark;
             background-color: $primary-color-dark;
         }
