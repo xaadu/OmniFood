@@ -1,6 +1,7 @@
 .section-meals--showcase {
     list-style: none;
     width: 100%;
+    @include clearfix;
 
     li {
         display: block;

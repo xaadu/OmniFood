@@ -1,0 +1,17 @@
+.steps__step {
+        margin-bottom: 50px;
+
+        &:first-child {
+            margin-top: 50px;
+        }
+
+        div {
+            color: $primary-color;
+            font-size: 30px;
+            border: 2px solid $primary-color;
+            border-radius: 100px;
+            padding: 10px 19px;
+            float: left;
+            margin-right: 20px;
+        }
+}

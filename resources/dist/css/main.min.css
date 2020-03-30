@@ -131,6 +131,13 @@ h3 {
   background-color: #bf6516;
 }
 
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
 .box {
   padding: 2%;
   text-align: center;
@@ -145,6 +152,24 @@ h3 {
   font-size: 90%;
   line-height: 145%;
   text-align: justify;
+}
+
+.steps__step {
+  margin-bottom: 50px;
+}
+
+.steps__step:first-child {
+  margin-top: 50px;
+}
+
+.steps__step div {
+  color: #e67e22;
+  font-size: 30px;
+  border: 2px solid #e67e22;
+  border-radius: 100px;
+  padding: 10px 19px;
+  float: left;
+  margin-right: 20px;
 }
 
 .header {
@@ -208,6 +233,12 @@ h3 {
   width: 100%;
 }
 
+.section-meals--showcase::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .section-meals--showcase li {
   display: block;
   float: left;
@@ -243,5 +274,27 @@ h3 {
 
 .section-meals {
   padding: 0;
+}
+
+.section-steps {
+  padding: 40px 0;
+  background-color: #f2f2f2;
+}
+
+.section-steps .steps-box {
+  margin-top: 30px;
+}
+
+.section-steps .steps-box .app-screen {
+  width: 40%;
+}
+
+.section-steps .steps-box:first-child {
+  padding-right: 3%;
+  text-align: right;
+}
+
+.section-steps .steps-box:last-child {
+  padding-left: 3%;
 }
 /*# sourceMappingURL=main.min.css.map */

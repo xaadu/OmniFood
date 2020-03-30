@@ -5,4 +5,24 @@
     &-meals {
         padding: 0;
     }
+    &-steps {
+        padding: 40px 0;
+        background-color: $color-white-dark;
+
+        .steps-box {
+            margin-top: 30px;
+
+            .app-screen {
+                width: 40%;
+            }
+
+            &:first-child {
+                padding-right: 3%;
+                text-align: right;
+            }
+            &:last-child {
+                padding-left: 3%;
+            }
+        }
+    }
 }
