@@ -3,6 +3,7 @@
     background-image: linear-gradient(rgba($color-black, .7), rgba($color-black, .7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 
     &__hero-text-box {
         position: absolute;
