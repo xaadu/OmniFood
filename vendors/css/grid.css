@@ -33,9 +33,9 @@
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
 
-/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.col { 
 		/*margin: 1% 0 1% 0%;*/
         margin: 0;
@@ -54,9 +54,9 @@
 	width: 49.2%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-2-of-2 {
 		width: 100%; 
 	}
@@ -82,9 +82,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-3-of-3 {
 		width: 100%; 
 	}
@@ -116,9 +116,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-4-of-4 {
 		width: 100%; 
 	}
@@ -158,9 +158,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-5-of-5 {
 		width: 100%; 
 	}
@@ -207,9 +207,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-6-of-6 {
 		width: 100%; 
 	}
@@ -264,9 +264,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-7-of-7 {
 		width: 100%; 
 	}
@@ -327,9 +327,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-8-of-8 {
 		width: 100%; 
 	}
@@ -397,9 +397,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-9-of-9 {
 		width: 100%; 
 	}
@@ -474,9 +474,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-10-of-10 {
 		width: 100%; 
 	}
@@ -557,9 +557,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-11-of-11 {
 		width: 100%; 
 	}
@@ -647,9 +647,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span-12-of-12 {
 		width: 100%; 
 	}

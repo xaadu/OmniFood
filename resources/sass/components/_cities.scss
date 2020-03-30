@@ -1,0 +1,44 @@
+.cities {
+    margin: 50px;
+
+    .city {
+        margin: 0 auto;
+        &:not(:last-child) {
+            margin-right: 5%;
+        }
+
+        img {
+            width: 90%;
+        }
+
+        ul {
+            margin-left: 4%;
+            margin-top: 5%;
+            list-style: none;
+
+            li {
+                margin-top: 5px;
+                i {
+                    color: $primary-color;
+                    margin-right: 10px;
+                    font-size: 120%;
+                }
+                .ion-ios-person {
+                    padding: 0 3px;
+                }
+                a {
+                    &:link,
+                    &:visited {
+                        color: $primary-color;
+                    }
+                    &:hover {
+                        text-decoration: none;
+                        color: $primary-text-color;
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
