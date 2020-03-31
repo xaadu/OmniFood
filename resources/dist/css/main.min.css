@@ -185,13 +185,14 @@ h3 {
 }
 
 .cities .city img {
-  width: 90%;
+  width: 100%;
 }
 
 .cities .city ul {
   margin-left: 4%;
   margin-top: 5%;
   list-style: none;
+  font-size: 90%;
 }
 
 .cities .city ul li {
@@ -209,12 +210,22 @@ h3 {
 }
 
 .cities .city ul li a:link, .cities .city ul li a:visited {
+  display: inline-block;
   color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .cities .city ul li a:hover {
-  text-decoration: none;
   color: #212121;
+  border-bottom: transparent;
+  -webkit-transform: scale(1.1) rotate(6deg);
+          transform: scale(1.1) rotate(6deg);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .header {

@@ -8,13 +8,14 @@
         }
 
         img {
-            width: 90%;
+            width: 100%;
         }
 
         ul {
             margin-left: 4%;
             margin-top: 5%;
             list-style: none;
+            font-size: 90%;
 
             li {
                 margin-top: 5px;
@@ -29,16 +30,21 @@
                 a {
                     &:link,
                     &:visited {
+                        display: inline-block;
                         color: $primary-color;
+                        text-decoration: none;
+                        padding-bottom: 1px;
+                        border-bottom: 1px solid $primary-color;
+                        transition: all .2s;
                     }
                     &:hover {
-                        text-decoration: none;
                         color: $primary-text-color;
+                        border-bottom: transparent;
+                        transform: scale(1.1) rotate(6deg);
+                        box-shadow: 0 5px 10px rgba($color: $color-black, $alpha: .2);
                     }
                 }
             }
-
-            
         }
     }
 }
