@@ -228,6 +228,37 @@ h3 {
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.testimonial blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+}
+
+.testimonial blockquote::before {
+  display: block;
+  content: "\201C";
+  font-size: 400%;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  margin-left: -20px;
+}
+
+.testimonial cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+.testimonial cite img {
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #e67e22;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 .header {
   height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
@@ -357,5 +388,21 @@ h3 {
 
 .section-cities {
   margin: 80px auto;
+}
+
+.section-testimonials {
+  display: block;
+  margin: auto;
+  padding: 90px 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(img/back-customers.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/back-customers.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.section-testimonials h2 {
+  color: #fff;
 }
 /*# sourceMappingURL=main.min.css.map */

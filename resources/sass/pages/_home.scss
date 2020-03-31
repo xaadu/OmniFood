@@ -31,4 +31,18 @@
     &-cities {
         margin: 80px auto;
     }
+
+    &-testimonials {
+        display: block;
+        margin: auto;
+        padding: 90px 0;
+        background-image: linear-gradient(rgba($color-black, 0.9), rgba($color-black, 0.9)), url(img/back-customers.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: $color-white;
+        h2 {
+            color: $color-white;
+        }
+    }
 }
