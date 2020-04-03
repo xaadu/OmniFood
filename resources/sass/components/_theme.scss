@@ -1,16 +1,24 @@
 .theme {
 
-    position: absolute;
+    position: fixed;
     top: 50vh;
     right: 10px;
     transform: translateY(-50%);
+    z-index: 2;
 
     span {
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
         margin: 5px;
         display: inline-block;
         cursor: pointer;
+        transition: all .4s;
+
+        &.active {
+            border: 2px solid $color-black;
+            box-shadow: 0 0px 10px 5px rgba($color: $color-black, $alpha: .2);
+            transform: translateX(-8%);
+        }
     }
 
     .t1 {

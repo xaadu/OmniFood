@@ -1,6 +1,6 @@
+@import "abstracts/functions";
 @import "abstracts/variables";
 @import "abstracts/mixins";
-@import "abstracts/functions";
 
 @import "base/base";
 @import "base/typography";
@@ -12,6 +12,7 @@
 @import "components/steps";
 @import "components/cities";
 @import "components/testimonial";
+@import "components/card";
 
 @import "layouts/header";
 @import "layouts/grid";
