@@ -40,6 +40,7 @@ $primary-color-text:   #FFF;
 $theme-1: #e67e22;
 $theme-2: #2ecc71;
 $theme-3: #2196F3;
+$theme-4: #c0392b;
 
 // EXTRAS
 $stdWid: 1140px;
@@ -61,6 +62,11 @@ $stdWid: 1140px;
     --theme-3: #{$theme-3};
     --theme-3-light: #{lighten($theme-3, 10%)};
     --theme-3-dark: #{darken($theme-3, 10%)};
+
+    // THEME 4 RED
+    --theme-4: #{$theme-4};
+    --theme-4-light: #{lighten($theme-4, 10%)};
+    --theme-4-dark: #{darken($theme-4, 10%)};
 
     --color-primary: #{$primary-color};
     --color-primary-dark: #{$primary-color-dark};

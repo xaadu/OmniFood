@@ -25,6 +25,9 @@ $primary-color-text:   #FFF;
   --theme-3: #2196F3;
   --theme-3-light: #51adf6;
   --theme-3-dark: #0c7cd5;
+  --theme-4: #c0392b;
+  --theme-4-light: #d65548;
+  --theme-4-dark: #962d22;
   --color-primary: #e67e22;
   --color-primary-dark: #bf6516;
   --color-primary-light: #eb9950;
@@ -141,6 +144,10 @@ h3 {
 
 .theme .t3 {
   background-color: #2196F3;
+}
+
+.theme .t4 {
+  background-color: #c0392b;
 }
 
 .btn:link, .btn:visited {
