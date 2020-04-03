@@ -12,20 +12,20 @@
     &--full {
         margin-right: 2%;
         color: $primary-color-text;
-        background-color: $primary-color;
+        background-color: col(primary);
 
         &:hover {
-            background-color: $primary-color-dark;
+            background-color: col(primary-dark);
         }
     }
     &--ghost {
-        color: $primary-color;
-        border: 1px solid $primary-color;
+        color: col(primary);
+        border: 1px solid col(primary);
 
         &:hover {
             color: $primary-color-text;
-            border-color: $primary-color-dark;
-            background-color: $primary-color-dark;
+            border-color: col(primary-dark);
+            background-color: col(primary-dark);
         }
     }
 }

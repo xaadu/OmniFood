@@ -20,7 +20,7 @@
             li {
                 margin-top: 5px;
                 i {
-                    color: $primary-color;
+                    color: col(primary);
                     margin-right: 10px;
                     font-size: 120%;
                 }
@@ -31,10 +31,10 @@
                     &:link,
                     &:visited {
                         display: inline-block;
-                        color: $primary-color;
+                        color: col(primary);
                         text-decoration: none;
                         padding-bottom: 1px;
-                        border-bottom: 1px solid $primary-color;
+                        border-bottom: 1px solid col(primary);
                         transition: all .2s;
                     }
                     &:hover {

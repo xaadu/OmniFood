@@ -1,0 +1,3 @@
+@function col($color-name) {
+    @return var(--color-#{$color-name});
+}

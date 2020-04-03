@@ -19,7 +19,6 @@ $divider-color:        #BDBDBD;
 
 // C O L O R S  --  Amber / Yellow
 $primary-color:        #e67e22;
-//$primary-color:        #c0392b;
 $primary-color-dark:   darken($primary-color, 10%);       
 $primary-color-light:  lighten($primary-color, 10%);
 $primary-color-text:   #FFF;
@@ -37,5 +36,33 @@ $primary-color-text:   #FFF;
 */
 
 
+// THEMES
+$theme-1: #e67e22;
+$theme-2: #2ecc71;
+$theme-3: #2196F3;
+
 // EXTRAS
 $stdWid: 1140px;
+
+
+// CSS
+ :root {
+     // THEME 1 CARROT
+    --theme-1: #{$theme-1};
+    --theme-1-light: #{lighten($theme-1, 10%)};
+    --theme-1-dark: #{darken($theme-1, 10%)};
+
+    // THEME 2 EMERALD
+    --theme-2: #{$theme-2};
+    --theme-2-light: #{lighten($theme-2, 10%)};
+    --theme-2-dark: #{darken($theme-2, 10%)};
+
+    // THEME 3 BLUE
+    --theme-3: #{$theme-3};
+    --theme-3-light: #{lighten($theme-3, 10%)};
+    --theme-3-dark: #{darken($theme-3, 10%)};
+
+    --color-primary: #{$primary-color};
+    --color-primary-dark: #{$primary-color-dark};
+    --color-primary-light: #{$primary-color-light};
+}

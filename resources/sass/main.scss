@@ -1,10 +1,12 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
+@import "abstracts/functions";
 
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/theme";
 @import "components/button";
 @import "components/box";
 @import "components/steps";

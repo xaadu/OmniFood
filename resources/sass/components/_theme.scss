@@ -1,0 +1,27 @@
+.theme {
+
+    position: absolute;
+    top: 50vh;
+    right: 10px;
+    transform: translateY(-50%);
+
+    span {
+        height: 30px;
+        width: 30px;
+        margin: 5px;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .t1 {
+        background-color: $theme-1;
+    }
+
+    .t2 {
+        background-color: $theme-2;
+    }
+
+    .t3 {
+        background-color: $theme-3;
+    }
+}
