@@ -345,14 +345,14 @@ h3 {
 
 .card {
   position: relative;
-  height: 480px;
+  height: 450px;
   -webkit-perspective: 1500px;
           perspective: 1500px;
   margin: 3% 3%;
 }
 
 .card__side {
-  height: 480px;
+  height: 450px;
   position: absolute;
   top: 0;
   left: 0;
@@ -391,7 +391,7 @@ h3 {
 .card__picture {
   background-size: cover;
   background-blend-mode: multiply;
-  height: 45%;
+  height: 50%;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
@@ -417,12 +417,10 @@ h3 {
   text-transform: uppercase;
   color: #FFF;
   position: absolute;
-  top: 34%;
+  top: 37.5%;
   right: 2%;
   text-align: right;
   width: 90%;
-  -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
 }
 
 .card__heading-span {
@@ -430,11 +428,13 @@ h3 {
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(var(--color-primary-light-rgb), 0.8)), to(rgba(var(--color-primary-dark-rgb), 0.8)));
   background-image: linear-gradient(to bottom right, rgba(var(--color-primary-light-rgb), 0.8), rgba(var(--color-primary-dark-rgb), 0.8));
   letter-spacing: 6px;
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
 }
 
 .card__details {
   padding: 30px;
-  margin-top: 7%;
+  margin-top: 1%;
 }
 
 .card__details ul {
@@ -477,7 +477,7 @@ h3 {
 }
 
 .card__price--value {
-  font-size: 400%;
+  font-size: 390%;
   font-weight: 100;
 }
 

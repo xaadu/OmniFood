@@ -1,11 +1,11 @@
 .card {
     position: relative;
-    height: 480px;
+    height: 450px;
     perspective: 1500px;
     margin: 3% 3%;
 
     &__side {
-        height: 480px;
+        height: 450px;
         position: absolute;
         top: 0;
         left: 0;
@@ -38,7 +38,7 @@
     &__picture {
         background-size: cover;
         background-blend-mode: multiply;
-        height: 45%;
+        height: 50%;
         clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 
         &--1 {
@@ -58,22 +58,22 @@
         text-transform: uppercase;
         color: $primary-color-text;
         position: absolute;
-        top: 34%;
+        top: 37.5%;
         right: 2%;
         text-align: right;
         width: 90%;
-        box-decoration-break: clone;
 
         &-span {
             padding: 5px 10px;
             background-image: $overlay-primary-dark;
             letter-spacing: 6px;
+            box-decoration-break: clone;
         }
     }
 
     &__details {
         padding: 30px;
-        margin-top: 7%;
+        margin-top: 1%;
 
         ul {
             list-style: none;
@@ -116,7 +116,7 @@
             word-spacing: 8px;
         }
         &--value {
-            font-size: 400%;
+            font-size: 390%;
             font-weight: 100;
 
         }
