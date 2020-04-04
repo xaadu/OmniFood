@@ -31,6 +31,21 @@
   --color-primary-dark-rgb: 191.35366, 101.30488, 21.64634;
 }
 
+/* 
+0 - 600px: phone
+600-900px: Tablet Potrait
+900-1200px: Tablet Landcape
+[1200-1800px]: Normal
+1800px+ : Big Desktop
+
+breakPoint Argument Choices
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+1rem = 16px
+*/
 *,
 *::before,
 *::after {
@@ -608,6 +623,72 @@ h3 {
 
 *:focus {
   outline: none;
+}
+
+footer {
+  background-color: #212121;
+  color: #BDBDBD;
+  font-size: 80%;
+  padding: 20px 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li:not(:last-child) {
+  margin-right: 20px;
+}
+
+footer ul li a:link, footer ul li a:visited {
+  display: inline-block;
+  color: #BDBDBD;
+  text-decoration: none;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+footer ul li a:hover {
+  color: var(--color-primary);
+  -webkit-transform: scale(1.2) rotate(4deg);
+          transform: scale(1.2) rotate(4deg);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer .footer-nav {
+  float: left;
+}
+
+footer .social-links {
+  float: right;
+  font-size: 140%;
+}
+
+footer p {
+  text-align: center;
+  line-height: 1.7;
+  margin-top: 20px;
+}
+
+footer p a:link, footer p a:visited {
+  color: var(--color-primary);
+  text-decoration: none;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+footer p a:hover {
+  display: inline-block;
+  color: var(--color-primary-light);
+  -webkit-transform: scale(1.2) rotate(4deg);
+          transform: scale(1.2) rotate(4deg);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .section-features {
