@@ -159,7 +159,7 @@ h3 {
   background-color: #c0392b;
 }
 
-.btn:link, .btn:visited {
+.btn, .btn:visited {
   display: inline-block;
   text-decoration: none;
   padding: 10px 30px;
@@ -167,6 +167,7 @@ h3 {
   border-radius: 100px;
   -webkit-transition: all .3s;
   transition: all .3s;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -578,6 +579,37 @@ h3 {
   opacity: 1;
 }
 
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid #BDBDBD;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form input[type=submit] {
+  border: none;
+}
+
+.contact-form input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
+}
+
 .section-features {
   padding: 80px 0;
 }
@@ -631,5 +663,9 @@ h3 {
 .section-plans {
   padding: 60px 0 50px;
   background-color: whitesmoke;
+}
+
+.section-form {
+  padding: 60px 0 50px;
 }
 /*# sourceMappingURL=main.min.css.map */
