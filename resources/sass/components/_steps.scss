@@ -1,8 +1,16 @@
-.steps__step {
+.steps{
+    &__step {
         margin-bottom: 50px;
+        @include respond(tab-mid) {
+            margin-bottom: 40px;
+        }
 
         &:first-child {
             margin-top: 50px;
+
+            @include respond(tab-mid) {
+                margin-top: 30px;
+            }
         }
 
         div {
@@ -13,5 +21,11 @@
             padding: 10px 19px;
             float: left;
             margin-right: 20px;
+            @include respond(tab-sm) {
+                font-size: 24px;
+                padding: 7px 14px;
+            }
         }
+    }
 }
+    

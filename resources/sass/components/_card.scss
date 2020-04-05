@@ -3,6 +3,12 @@
     height: 450px;
     perspective: 1500px;
     margin: 3% 3%;
+    @include respond(tab-big) {
+        height: 510px;
+    }
+    @include respond(tab-sm){
+        height: 430px;
+    }
 
     &__side {
         height: 450px;
@@ -15,6 +21,13 @@
         box-shadow: 0 15px 40px rgba($color: $color-black, $alpha: .15);
         backface-visibility: hidden;
         transition: all .6s linear;
+
+        @include respond(tab-big) {
+            height: 510px;
+        }
+        @include respond(tab-sm){
+            height: 430px;
+        }
 
         &--front {
             background-color: $color-white;

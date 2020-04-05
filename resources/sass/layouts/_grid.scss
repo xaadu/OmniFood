@@ -1,4 +1,11 @@
 .row {
     max-width: $stdWid;
     margin: 0 auto;
+    
+    @include respond(tab-big) {
+        padding: 0 2%;
+    }
+    @include respond(tab-sm) {
+        padding: 0 4%;
+    }
 }

@@ -1,6 +1,10 @@
 .section {
     &-features {
         padding: 80px 0;
+
+        @include respond(tab-mid) {
+            padding: 50px 0;
+        }
     }
 
     &-meals {
@@ -10,17 +14,31 @@
     &-steps {
         padding: 40px 0 60px;
         background-color: $color-white-dark;
+        @include respond(tab-mid) {
+            padding: 40px 0 40px;
+        }
 
         .steps-box {
             margin-top: 30px;
 
             .app-screen {
                 width: 40%;
+                @include respond(tab-mid) {
+                    width: 47%;
+                }
+                @include respond(tab-sm) {
+                    text-align: center;
+                    width: 30%;
+                }
             }
 
             &:first-child {
                 padding-right: 3%;
                 text-align: right;
+                @include respond(tab-sm) {
+                    text-align: center;
+                    padding-right: 0;
+                }
             }
             &:last-child {
                 padding-left: 3%;
@@ -30,17 +48,34 @@
 
     &-cities {
         margin: 80px auto;
+        @include respond(tab-mid) {
+            margin: 50px auto;
+        }
     }
 
     &-testimonials {
         display: block;
         margin: auto;
-        padding: 90px 0;
+        padding: 80px 0;
         background-image: linear-gradient(rgba($color-black, 0.9), rgba($color-black, 0.9)), url(img/back-customers.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
         color: $color-white;
+        @include respond(tab-mid) {
+            padding: 50px 0;
+        }
+        @include respond(tab-sm){
+            padding-bottom: 20px;
+        }
+        
+        .testimonial {
+            @include respond(tab-sm){
+                padding: 5px;
+                margin-bottom: 50px;
+            }
+        }
+
         h2 {
             color: $color-white;
         }
@@ -49,9 +84,15 @@
     &-plans {
         padding: 60px 0 50px;
         background-color: $color-white-dark;
+        @include respond(tab-mid) {
+            padding: 50px 0 50px;
+        }
     }
 
     &-form {
         padding: 60px 0 50px;
+        @include respond(tab-mid) {
+            padding: 50px 0 50px;
+        }
     }
 }

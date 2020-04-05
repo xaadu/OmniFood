@@ -2,6 +2,23 @@
     width: 60%;
     margin: 0 auto;
 
+    @include respond(tab-mid) {
+        width: 80%;
+    }
+    @include respond(tab-sm) {
+        width: 90%;
+    }
+    @include respond(phone) {
+        width: 100%;
+    }
+
+    label {
+        @include respond(tab-sm) {
+            display: inline-block;
+            margin: 20px 0 8px;
+        }
+    }
+
     input[type=text],
     input[type=email],
     select,

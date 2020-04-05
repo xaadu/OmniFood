@@ -25,7 +25,7 @@ breakPoint Argument Choices
 */
 
 @mixin respond($breakpoint) {
-    @if $breakpoint == phone {
+    /*@if $breakpoint == phone {
         @media (max-width: 37.5em) { @content };   // 600px
     }
     @if $breakpoint == tab-port {
@@ -36,5 +36,18 @@ breakPoint Argument Choices
     }
     @if $breakpoint == big-desktop {
         @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+
+    @if $breakpoint == phone {
+        @media (max-width: 30em) { @content };   // 480px
+    }
+    @if $breakpoint == tab-sm {
+        @media (max-width: 47.93em) { @content };   // 767px
+    }
+    @if $breakpoint == tab-mid {
+        @media (max-width: 63.93em) { @content };   // 1023px
+    }
+    @if $breakpoint == tab-big {
+        @media (max-width: 75em) { @content };   // 1200px
     }
 }

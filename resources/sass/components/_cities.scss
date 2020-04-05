@@ -3,6 +3,14 @@
 
     .city {
         margin: 0 auto;
+        @include respond(tab-sm){
+            margin-bottom: 20px;
+            width: 90%;
+        }
+        @include respond(phone){
+            width: 100%;
+        }
+
         &:not(:last-child) {
             margin-right: 5%;
         }
@@ -16,6 +24,13 @@
             margin-top: 5%;
             list-style: none;
             font-size: 90%;
+
+            @include respond(tab-mid) {
+                font-size: 80%;
+            }
+            @include respond(tab-sm){
+                font-size: 90%;
+            }
 
             li {
                 margin-top: 5px;

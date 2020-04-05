@@ -70,6 +70,42 @@ body {
   font-size: 200%;
   color: #757575;
   text-rendering: optimizeLegibility;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  body {
+    font-size: 180%;
+  }
+}
+
+@media (max-width: 47.93em) {
+  body {
+    font-size: 160%;
+  }
 }
 
 h1,
@@ -86,12 +122,48 @@ h1 {
   margin-top: 0;
   font-size: 240%;
   word-spacing: 4px;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  h1 {
+    font-size: 180%;
+  }
 }
 
 h2 {
   font-size: 180%;
   word-spacing: 2px;
   text-align: center;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  h2 {
+    font-size: 150%;
+  }
 }
 
 h2::after {
@@ -113,6 +185,44 @@ h3 {
   line-height: 145%;
   width: 70%;
   margin-left: 15%;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 47.93em) {
+  .long-copy {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .u-text-center {
@@ -233,9 +343,11 @@ h3 {
 
 .btn-app img {
   height: 50px;
-  width: auto;
+  width: 145px;
   margin-right: 20px;
   margin-top: 20px;
+  background-color: #000;
+  border-radius: 15px;
 }
 
 .box {
@@ -256,10 +368,46 @@ h3 {
 
 .steps__step {
   margin-bottom: 50px;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .steps__step {
+    margin-bottom: 40px;
+  }
 }
 
 .steps__step:first-child {
   margin-top: 50px;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .steps__step:first-child {
+    margin-top: 30px;
+  }
 }
 
 .steps__step div {
@@ -270,6 +418,25 @@ h3 {
   padding: 10px 19px;
   float: left;
   margin-right: 20px;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .steps__step div {
+    font-size: 24px;
+    padding: 7px 14px;
+  }
 }
 
 .cities {
@@ -278,6 +445,43 @@ h3 {
 
 .cities .city {
   margin: 0 auto;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .cities .city {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 30em) {
+  .cities .city {
+    width: 100%;
+  }
 }
 
 .cities .city:not(:last-child) {
@@ -293,6 +497,42 @@ h3 {
   margin-top: 5%;
   list-style: none;
   font-size: 90%;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .cities .city ul {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 47.93em) {
+  .cities .city ul {
+    font-size: 90%;
+  }
 }
 
 .cities .city ul li {
@@ -365,6 +605,42 @@ h3 {
   -webkit-perspective: 1500px;
           perspective: 1500px;
   margin: 3% 3%;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 75em) {
+  .card {
+    height: 510px;
+  }
+}
+
+@media (max-width: 47.93em) {
+  .card {
+    height: 430px;
+  }
 }
 
 .card__side {
@@ -381,6 +657,42 @@ h3 {
           backface-visibility: hidden;
   -webkit-transition: all .6s linear;
   transition: all .6s linear;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 75em) {
+  .card__side {
+    height: 510px;
+  }
+}
+
+@media (max-width: 47.93em) {
+  .card__side {
+    height: 430px;
+  }
 }
 
 .card__side--front {
@@ -497,6 +809,58 @@ h3 {
   font-weight: 100;
 }
 
+.nav .logo {
+  height: 100px;
+  float: left;
+  margin-top: 20px;
+}
+
+.nav .nav-main {
+  float: right;
+  list-style: none;
+  margin-top: 40px;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .nav .nav-main {
+    display: none;
+  }
+}
+
+.nav .nav-main__item {
+  display: inline-block;
+  padding: 10px 0;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.nav .nav-main__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav .nav-main__item a:link, .nav .nav-main__item a:visited {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+.nav .nav-main__item:hover {
+  border-bottom: 2px solid var(--color-primary);
+}
+
 .header {
   height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
@@ -513,45 +877,83 @@ h3 {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
 }
 
-.header__nav .logo {
-  height: 100px;
-  float: left;
-  margin-top: 20px;
+@media (max-width: 75em) {
+  .header__hero-text-box {
+    width: 96%;
+  }
 }
 
-.header__nav .nav-main {
-  float: right;
-  list-style: none;
-  margin-top: 40px;
-}
-
-.header__nav .nav-main__item {
-  display: inline-block;
-  padding: 10px 0;
-  -webkit-transition: all .4s;
-  transition: all .4s;
-}
-
-.header__nav .nav-main__item:not(:last-child) {
-  margin-right: 40px;
-}
-
-.header__nav .nav-main__item a:link, .header__nav .nav-main__item a:visited {
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 90%;
-}
-
-.header__nav .nav-main__item:hover {
-  border-bottom: 2px solid var(--color-primary);
+@media (max-width: 47.93em) {
+  .header__hero-text-box {
+    padding: 0 4%;
+  }
 }
 
 .row {
   max-width: 1140px;
   margin: 0 auto;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 75em) {
+  .row {
+    padding: 0 2%;
+  }
+}
+
+@media (max-width: 47.93em) {
+  .row {
+    padding: 0 4%;
+  }
 }
 
 .section-meals--showcase {
@@ -597,6 +999,82 @@ h3 {
 .contact-form {
   width: 60%;
   margin: 0 auto;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .contact-form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 47.93em) {
+  .contact-form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 30em) {
+  .contact-form {
+    width: 100%;
+  }
+}
+
+.contact-form label {
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .contact-form label {
+    display: inline-block;
+    margin: 20px 0 8px;
+  }
 }
 
 .contact-form input[type=text],
@@ -693,6 +1171,24 @@ footer p a:hover {
 
 .section-features {
   padding: 80px 0;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .section-features {
+    padding: 50px 0;
+  }
 }
 
 .section-meals {
@@ -702,6 +1198,24 @@ footer p a:hover {
 .section-steps {
   padding: 40px 0 60px;
   background-color: whitesmoke;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .section-steps {
+    padding: 40px 0 40px;
+  }
 }
 
 .section-steps .steps-box {
@@ -710,11 +1224,67 @@ footer p a:hover {
 
 .section-steps .steps-box .app-screen {
   width: 40%;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .section-steps .steps-box .app-screen {
+    width: 47%;
+  }
+}
+
+@media (max-width: 47.93em) {
+  .section-steps .steps-box .app-screen {
+    text-align: center;
+    width: 30%;
+  }
 }
 
 .section-steps .steps-box:first-child {
   padding-right: 3%;
   text-align: right;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .section-steps .steps-box:first-child {
+    text-align: center;
+    padding-right: 0;
+  }
 }
 
 .section-steps .steps-box:last-child {
@@ -723,18 +1293,94 @@ footer p a:hover {
 
 .section-cities {
   margin: 80px auto;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .section-cities {
+    margin: 50px auto;
+  }
 }
 
 .section-testimonials {
   display: block;
   margin: auto;
-  padding: 90px 0;
+  padding: 80px 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(img/back-customers.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(img/back-customers.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: #fff;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .section-testimonials {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 47.93em) {
+  .section-testimonials {
+    padding-bottom: 20px;
+  }
+}
+
+.section-testimonials .testimonial {
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .section-testimonials .testimonial {
+    padding: 5px;
+    margin-bottom: 50px;
+  }
 }
 
 .section-testimonials h2 {
@@ -744,9 +1390,45 @@ footer p a:hover {
 .section-plans {
   padding: 60px 0 50px;
   background-color: whitesmoke;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .section-plans {
+    padding: 50px 0 50px;
+  }
 }
 
 .section-form {
   padding: 60px 0 50px;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 63.93em) {
+  .section-form {
+    padding: 50px 0 50px;
+  }
 }
 /*# sourceMappingURL=main.min.css.map */

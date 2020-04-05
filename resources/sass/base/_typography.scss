@@ -4,6 +4,14 @@ body {
     font-size: 200%;
     color: $secondary-text-color;
     text-rendering: optimizeLegibility;
+
+    @include respond(tab-mid) {
+        font-size: 180%;
+    }
+
+    @include respond(tab-sm) {
+        font-size: 160%;
+    }
 }
 
 h1,
@@ -20,11 +28,17 @@ h1 {
     margin-top: 0;
     font-size: 240%;
     word-spacing: 4px;
+    @include respond(tab-sm) {
+        font-size: 180%;
+    }
 }
 h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
+    @include respond(tab-sm) {
+        font-size: 150%;
+    }
 
     &::after {
         content: "";
@@ -45,4 +59,13 @@ h3 {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+
+    @include respond(tab-mid) {
+        width: 80%;
+        margin-left: 10%;
+    }
+    @include respond(tab-sm) {
+        width: 100%;
+        margin-left: 0;
+    }
 }
