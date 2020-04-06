@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
 
@@ -16,14 +17,15 @@
 
 <body>
     <header class="header">
-        <nav class="nav sticky">
+        <nav class="nav">
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="OmniFood Logo" class="logo">
+                <img src="resources/img/logo.png" alt="OmniFood Logo" class="logo-black">
                 <ul class="nav-main">
-                    <li class="nav-main__item nav-main__item--1"><a href="#">Food Delivery</a></li>
-                    <li class="nav-main__item nav-main__item--2"><a href="#">How It Works</a></li>
-                    <li class="nav-main__item nav-main__item--3"><a href="#">Our Cities</a></li>
-                    <li class="nav-main__item nav-main__item--4"><a href="#">Sign Up</a></li>
+                    <li class="nav-main__item nav-main__item--1"><a href="#features">Food Delivery</a></li>
+                    <li class="nav-main__item nav-main__item--2"><a href="#works">How It Works</a></li>
+                    <li class="nav-main__item nav-main__item--3"><a href="#cities">Our Cities</a></li>
+                    <li class="nav-main__item nav-main__item--4"><a href="#plans">Sign Up</a></li>
                 </ul>
             </div>
         </nav>
@@ -35,12 +37,12 @@
         </div>
         <div class="header__hero-text-box">
             <h1 class="u-margin-bottom-small">Goodbye junk food.<br />Hello super healthy meals.</h1>
-            <a href="#" class="btn btn--full">I'm hungry</a>
-            <a href="#" class="btn btn--ghost">Show me more</a>
+            <a href="#" class="btn btn--full js--scroll-to-plans">I'm hungry</a>
+            <a href="#" class="btn btn--ghost js--scroll-to-start">Show me more</a>
         </div>
     </header>
     <main>
-        <section class="section-features">
+        <section class="section-features js--section-features" id="features">
             <div class="row">
                 <div class="u-text-center u-margin-bottom-medium">
                     <h2>Get food fast &mdash; not fast food.</h2>
@@ -50,7 +52,7 @@
                     always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
                 </p>
             </div>
-            <div class="row">
+            <div class="row js--wp-1">
                 <div class="col span-1-of-4">
                     <div class="box">
                         <i class="ion-ios-infinite-outline"></i>
@@ -119,7 +121,7 @@
             </ul>
         </section>
 
-        <section class="section-steps">
+        <section class="section-steps" id="works">
             <div class="row">
                 <div class="u-text-center u-margin-bottom-medium">
                     <h2>How it works &mdash; Simple as 1, 2, 3</h2>
@@ -127,7 +129,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-2 steps-box"">
-                    <img src=" resources/img/app-iPhone.png" alt="OmniFood App on iPhone" class="app-screen">
+                    <img src=" resources/img/app-iPhone.png" alt="OmniFood App on iPhone" class="app-screen js--wp-2">
                 </div>
                 <div class="col span-1-of-2 steps-box">
                     <div class="steps">
@@ -153,11 +155,11 @@
             </div>
         </section>
 
-        <section class="section-cities">
+        <section class="section-cities" id="cities">
             <div class="u-text-center">
                 <h2>We're currently in these cities</h2>
             </div>
-            <div class="row">
+            <div class="row js--wp-3">
                 <div class="cities">
                     <div class="col span-1-of-4">
                         <div class="city">
@@ -243,7 +245,7 @@
             </div>
         </sections>
 
-        <section class="section-plans">
+        <section class="section-plans js--section-plans" id="plans">
             <div class="row">
                 <div class="u-text-center u-margin-bottom-medium">
                     <h2>Start eating healthy today</h2>
@@ -251,7 +253,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-3">
-                    <div class="card">
+                    <div class="card js--wp-4">
                         <div class="card__side card__side--front">
                             <div class="card__picture card__picture--1">&nbsp;</div>
                             <h4 class="card__heading">
@@ -435,6 +437,9 @@
     <!-- Responsive Making Scripts END -->
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@slicemenice/jquery-smooth-anchor-scroll@1.1.2/jquery-smooth-anchor-scroll.min.js"></script>
 
     <script src="resources/js/theme.js"></script>
     <script src="resources/js/main.js"></script>
