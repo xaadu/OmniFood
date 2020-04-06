@@ -15,6 +15,9 @@
 
         @include respond(tab-sm) {
             display: none;
+            float: left;
+            margin-left: 35px;
+            margin-top: 10px;
         }
 
         &__item {
@@ -23,6 +26,10 @@
 
             &:not(:last-child) {
                 margin-right: 40px;
+            }
+
+            @include respond(tab-sm) {
+                display: block;
             }
 
             a {
@@ -34,6 +41,13 @@
                     padding: 10px 0;
                     border-bottom: 2px solid transparent;
                     transition: all .4s;
+
+                    @include respond(tab-sm) {
+                        display: block;
+                        border: 0;
+                        font-size: 100%;
+                        padding: 10px 0;
+                    }
                 }
                 &:hover {
                     border-bottom: 2px solid col(primary);
@@ -65,14 +79,46 @@
         .nav-main {
             margin-top: 17px;
 
+            @include respond(tab-sm) {
+                margin-left: 35px;
+                margin-top: 0;
+            }
+
             &__item {
                 a {
                     &:link, &:visited {
                         color: $color-black;
                         padding: 18px 0;
+
+                        @include respond(tab-sm) {
+                            padding: 10px 0;
+                        }
                     }
                 }
             }
+        }
+        .mobile-nav-icon {
+            margin-top: 10px;
+            i {
+                color: $color-black;
+            }
+        }
+        
+    }
+
+    .mobile-nav-icon {
+        float: right;
+        margin-top: 45px;
+        cursor: pointer;
+        display: none;
+
+        @include respond(tab-sm) {
+            display: inline-block;
+        }
+
+        i {
+            font-size: 200%;
+            color: $color-white;
         }
     }
 }

@@ -859,6 +859,9 @@ h3 {
 @media (max-width: 47.93em) {
   .nav .nav-main {
     display: none;
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;
   }
 }
 
@@ -866,10 +869,28 @@ h3 {
   display: inline-block;
   -webkit-transition: all .4s;
   transition: all .4s;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
 }
 
 .nav .nav-main__item:not(:last-child) {
   margin-right: 40px;
+}
+
+@media (max-width: 47.93em) {
+  .nav .nav-main__item {
+    display: block;
+  }
 }
 
 .nav .nav-main__item a:link, .nav .nav-main__item a:visited {
@@ -881,6 +902,27 @@ h3 {
   border-bottom: 2px solid transparent;
   -webkit-transition: all .4s;
   transition: all .4s;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .nav .nav-main__item a:link, .nav .nav-main__item a:visited {
+    display: block;
+    border: 0;
+    font-size: 100%;
+    padding: 10px 0;
+  }
 }
 
 .nav .nav-main__item a:hover {
@@ -911,11 +953,86 @@ h3 {
 
 .nav.sticky .nav-main {
   margin-top: 17px;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .nav.sticky .nav-main {
+    margin-left: 35px;
+    margin-top: 0;
+  }
 }
 
 .nav.sticky .nav-main__item a:link, .nav.sticky .nav-main__item a:visited {
   color: #000;
   padding: 18px 0;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .nav.sticky .nav-main__item a:link, .nav.sticky .nav-main__item a:visited {
+    padding: 10px 0;
+  }
+}
+
+.nav.sticky .mobile-nav-icon {
+  margin-top: 10px;
+}
+
+.nav.sticky .mobile-nav-icon i {
+  color: #000;
+}
+
+.nav .mobile-nav-icon {
+  float: right;
+  margin-top: 45px;
+  cursor: pointer;
+  display: none;
+  /*@if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content };   // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.2em) { @content };   // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content };   // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content };   // 1800px
+    }*/
+}
+
+@media (max-width: 47.93em) {
+  .nav .mobile-nav-icon {
+    display: inline-block;
+  }
+}
+
+.nav .mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
 }
 
 .header {
